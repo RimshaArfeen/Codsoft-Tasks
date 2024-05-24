@@ -1,0 +1,9 @@
+.mainbox{
+    width: 85%;
+    height: 70%;
+}
+/* Card.css */
+img:hover{
+    filter: brightness(0.8); /* Example of a custom hover effect */
+  }
+  

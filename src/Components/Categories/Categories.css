@@ -1,0 +1,14 @@
+hr{
+    width: 80%;
+    height: 3px;
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+.card:hover {
+    transform: scale(0.8);
+    background-color: rgb(224, 224, 224);
+    border-radius: 12px;
+  }
+  

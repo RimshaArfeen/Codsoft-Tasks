@@ -1,0 +1,20 @@
+.RiHeartFill {
+    border: 2px solid black   ;
+}
+header{
+    background-color: #77777780;
+}
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: white;
+}
+header > section{
+    background: #0e0e0e47;
+    padding: 0px;
+
+}
+
+header > section a{
+   color: white;
+   font-size: 13px;
+}
