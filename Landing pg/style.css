@@ -1,0 +1,374 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    background: url('coffee-latte-with-cookies-coffiee-beans\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(6px);
+}
+
+.container-fluid {
+    /* background-color: rgb(212, 212, 212); */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: relative;
+    width: 70vw;
+    height: 80vh;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg_img {
+    background: url('coffee-latte-with-cookies-coffiee-beans\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    /* Ensure image fully covers the container */
+    background-repeat: no-repeat;
+    position: relative;
+    /* Position image within mainbox */
+    width: 100%;
+    height: 100%;
+    left: 0;
+    box-shadow: 0 0 10px rgba(44, 44, 44, 0.568); 
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #67e24e;  */
+    width: 70vw;
+    position: absolute;
+    top: 0;
+    left: 0px;
+    z-index: 2;
+
+}
+
+.navbar_full {
+    width: 50vw;
+    height: 7vh;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainbox>.navbar {
+
+    height: 10vh;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 5px;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: self-end;
+}
+
+
+.navbar>.navbar_full {
+    display: flex;
+    background-color: rgba(37, 37, 37, 0.479);
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border: 1px solid rgb(127 73 13);
+    border-radius: 4px;
+    width: max-content;
+    height: max-content;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 26px;
+    color: rgb(95, 44, 2);
+}
+
+.navbar-brand .coffee {
+    color: #bc690d
+}
+
+.ri-drinks-fill {
+    font-size: 30px;
+    color: rgb(146 68 2);
+    margin: 0 3px;
+
+}
+
+#navbarNav li a {
+    font-size: 18px;
+    letter-spacing: 1px;
+    /* color: #412313; */
+    font-weight: 400;
+}
+
+#navbarNav li a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(172, 172, 172);
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+.container-md {
+    width: 70vw;
+    height: 47vh;
+    /* background-color: rgba(58, 58, 58, 0.692); */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    top: 80px;
+    left: 0;
+    padding: 20px 65px;
+}
+
+.container-md>.row {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.card {
+    background-color: #7877771c ;
+    /* background-color: transparent; */
+    padding-bottom: 10px;
+    height: 23rem;
+    color: white;
+
+}
+
+.container-md .card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 0px 4px;
+    /* color: black; */
+}
+
+.container-md .card-title {
+    /* color: black; */
+    font-weight: 600;
+    font-size: 30px;
+    margin: 10px;
+    font-weight: 500
+}
+
+.product {
+    font-weight: 600;
+    font-style: normal;
+    color:#b56305;
+    font-size : 53px;
+    display: block;
+    /* position: absolute;
+    top: auto;
+    left: 5rem; */
+    /* letter-spacing: px; */
+    text-shadow: 0 0 #74482d;
+}
+
+.card-text {
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    /* margin: auto; */
+    text-align: left;
+    margin-left: 21px;
+    font-size: 14px;
+    color: #a19e9e;
+}
+
+.btns {
+    display: flex;
+     justify-content: flex-start;
+    margin-right: 7rem; 
+    margin-bottom: 15px;
+}
+
+.btns .btn {
+    margin: 0 8px;
+    border: 2px solid black;
+    background-color: #bc690d;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    border-radius: 5px;
+}
+.btns .btn:nth-child(2) {
+    /* Your styles for the second button here */
+    /* For example: */
+    border: 2px solid #bc690d;
+    color: #bc690d;
+    background-color: black;
+}
+.btn:hover {
+    color: #818181;
+}
+.contacts {
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.phone,
+.insta {
+    font-size: 12px;
+    color: #9e9e9e;
+    margin-left:15rem;
+}
+.phone:hover,
+.insta:hover {
+    text-decoration: underline;
+    text-decoration-color: #8b8b8b;
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 3px;
+    /* padding: 0px 3px; */
+
+}
+
+@media (min-width : 300px) and (max-width : 400px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .mainbox {
+        height: 90vh;
+    }
+
+    .mainbox>.navbar {
+        width: 80vw;
+        top: 26px;
+        left: 22px;
+    }
+
+    .navbar>.navbar_full {
+        height: 10vh;
+        padding: 10px 5px;
+        width: 70vw;
+    }
+
+    .container-md {
+        width: 70vw;
+        height: 50vh;
+        padding: 0;
+        align-items: start;
+    }
+
+    .card {
+        width: 22rem;
+        height: 26rem;
+        background-color:#5a595933; 
+    }
+    
+    .card-body {
+        justify-content: center;
+    }
+}
+
+@media (min-width : 401px) and (max-width : 600px) {
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .mainbox>.navbar {
+        top: 2px;
+        right: 0px;
+        width: max-content;
+        left: 35px;
+    }
+
+    .navbar .navbar_full {
+        width: 80vw;
+    }
+
+    .container-md {
+        padding: 0;
+    }
+
+    .container-md>.row {
+        position: absolute;
+        top: 95px;
+    }
+
+    .card {
+        left: 90px;
+        width: 24rem;
+        height: 25rem;
+    }
+    /* .card-text{
+        color: rgb(204, 202, 202);
+    } */
+    .container-md>.card-body {
+        justify-content: center;
+    }
+
+}
+
+@media (min-width : 601px) and (max-width : 700px) {
+    .container {
+        width: 107vw;
+        height: 100vh;
+    }
+
+    .mainbox {
+        height: 90vh;
+        width: 80vw;
+    }
+
+    .navbar>.navbar_full {
+        width: max-content;
+        height: max-content;
+    }
+
+    .container-md {
+        padding: 0;
+        top: 9rem;
+    }
+}
+@media (min-width : 701px) and (max-width : 800px) {
+    .container {
+        width: 107vw;
+        height: 100vh;
+    }
+
+    .mainbox {
+        height: 90vh;
+        width: 80vw;
+    }
+
+    .navbar>.navbar_full {
+        width: max-content;
+        height: max-content;
+    }
+
+    .container-md {
+        width: 55vw;
+        padding: 0;
+        top: 9rem;
+    }
+}
